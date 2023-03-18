@@ -12,7 +12,7 @@ func init() {
 }
 
 // helloWorld writes "Hello, World!" to the HTTP response.
-func helloWorld(w http.ResponseWriter, r *http.Request) {
+func HelloWorld(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Hello, World!")
 
 }
