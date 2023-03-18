@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	functions.HTTP("HelloWorld", helloWorld)
+	functions.HTTP("HelloWorld", HelloWorld)
 }
 
 // helloWorld writes "Hello, World!" to the HTTP response.
