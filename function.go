@@ -1,4 +1,4 @@
-package function
+package helloworld
 
 import (
 	"fmt"
